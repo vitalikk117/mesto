@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+    <header class="header">
+      <img class="header__logo" src="./image/header__logo.svg" alt="логотип место Россия">
+    </header>
+  <div class="page__container">
+    <main>
+      <section class="profile">
+        <img class="profile__avatar" src="./image/Avatar-Kusto.jpg" alt="фотография Жак Ив Кусто">
+        <div class="profile__info">
+          <h2 class="profile__title">Жак-Ив Кусто</h2>
+          <p class="profile__text">Исследователь океана</p>
+        </div>
+        <button class="profile__edit-button" type="button"></button>
+        <button class="profile__add-button" type="button"></button>
+      </section>
+      <section class="elements">
+        <article class="element">
+          <img src="./image/karachaevo-cherkesia.jpg" class="element__image" alt="Два вида внимания">
+          <h3 class="element__title">Карачаевск</h3>
+          <img src="./image/vector-heart.svg" class="element__heart" alt="сердечко">
+          </article>
+        <article class="element">
+          <img src="./image/gora__elbrus.jpg" class="element__image" alt="Два вида внимания">
+          <h3 class="element__title">Гора Эльбрус</h3>
+          <img src="./image/vector-heart.svg" class="element__heart" alt="сердечко">
+          </article>
+        <article class="element">
+          <img src="./image/dombay.jpg" class="element__image" alt="Два вида внимания">
+          <h3 class="element__title">Домбай</h3>
+          <img src="./image/vector-heart.svg" class="element__heart" alt="сердечко">
+        </article>
+        <article class="element">
+          <img src="./image/gora__elbrus.jpg" class="element__image" alt="Два вида внимания">
+          <h3 class="element__title">Гора Эльбрус</h3>
+          <img src="./image/vector-heart.svg" class="element__heart" alt="сердечко">
+        </article>
+        <article class="element">
+          <img src="./image/dombay.jpg" class="element__image" alt="Два вида внимания">
+          <h3 class="element__title">Домбай</h3>
+          <img src="./image/vector-heart.svg" class="element__heart" alt="сердечко">
+        </article>
+        <article class="element">
+          <img src="./image/karachaevo-cherkesia.jpg" class="element__image" alt="Два вида внимания">
+          <h3 class="element__title">Карачаево-Ч...</h3>
+          <img src="./image/vector-heart.svg" class="element__heart" alt="сердечко">
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">&copy;&nbsp;2020 Mesto Russia</p>
+    </footer>
+  </div>
+  <div class="popup">
+    <div class="popup__container">
+      <button type="button" class="popup__close-btn"></button>
+      <form name="profile" class="popup__form">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <fieldset class="popup__input">
+          <input type="text" class="popup__name" name="name" placeholder="Имя" value="Жак Ив Кусто">
+          <input type="text" class="popup__job" name="about" placeholder="О себе" value="Исследователь океана">
+        </fieldset>
+        <button type="submit" class="popup__submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+  <script src="./blocks/scripts/index.js" defer></script>
+</body>
+</html>

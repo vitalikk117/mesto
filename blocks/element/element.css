@@ -1,0 +1,7 @@
+.element {
+  font-family: 'Inter';
+  max-width: 282px;
+  margin: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+}

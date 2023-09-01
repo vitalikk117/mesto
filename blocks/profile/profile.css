@@ -1,0 +1,16 @@
+.profile {
+  font-family: 'Inter';
+  margin: 0 auto;
+  padding: 40px 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen  and (max-width: 767px) {
+.profile {
+  max-width: 282px;
+  min-height: 286px;
+  padding: 42px 0 36px;
+  flex-wrap: wrap;
+  }
+}
